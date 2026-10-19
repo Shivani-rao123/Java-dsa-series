@@ -1,4 +1,4 @@
-package Shivani;
+package basics;
 import java.util.Scanner;
 
 public class newss {

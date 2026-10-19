@@ -1,4 +1,4 @@
-package Shivani;
+package basics;
 
 public class conditions {
 

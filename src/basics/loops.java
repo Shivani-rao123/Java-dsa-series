@@ -1,4 +1,4 @@
-package Shivani;
+package basics;
 
 import java.util.Scanner;
 
@@ -13,9 +13,9 @@ public class loops {
 
         //do-while
 //
-        int a = input.nextInt();
-        int b = input.nextInt();
-        int c = input.nextInt();
+//        int a = input.nextInt();
+//        int b = input.nextInt();
+//        int c = input.nextInt();
 
 //
 //        int max = a;
@@ -26,7 +26,15 @@ public class loops {
 //        if (c > max) {
 //            max = c;
 //        }
-        int max = Math.max(c,Math.max(a,b));
-        System.out.println(max);
-    }
+//        int max = Math.max(c,Math.max(a,b));
+//        System.out.println(max);
+        char ch = input.next().trim().charAt(0);
+        if(ch >='a' && ch<='z'){
+            System.out.println("Lower case");
+        }
+        else{
+            System.out.println("Upper case");
+        }
+        System.out.println(ch);
+     }
 }
